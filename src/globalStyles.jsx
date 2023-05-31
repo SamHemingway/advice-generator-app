@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import { CSS_VARS } from "./assets/constants";
+import { CSS_VARS } from "../public/assets/constants";
 
 const createCssVar = (items, prefix = "-") =>
   Object.entries(items).flatMap(([key, value]) => {

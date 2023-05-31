@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components/macro";
 import Divider from "../Divider/Divider";
-import { mediaQueries } from "../../assets/constants";
+import { mediaQueries } from "../../../public/assets/constants";
 import useSWR from "swr";
 import { motion, AnimatePresence } from "framer-motion";
 import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
@@ -109,7 +109,7 @@ export default function AdviceCard() {
             initial="start"
             animate="end"
           >
-            <img src="../../src/assets/icon-dice.svg" />
+            <img src="./assets/icon-dice.svg" />
           </Reload>
         </AnimatePresence>
       )}
